@@ -57,3 +57,28 @@
 
   padding-top: 10px;
 }
+
+.table{
+
+border: 1px solid black;
+margin-top: 5rem;
+box-shadow: 1px 1px 3px grey;
+color:black;
+
+text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.IconsFocus:hover{
+  cursor: pointer;
+  color: red;
+  
+}
+
+.Row{
+  border: 1px solid red;
+}
+
+
+.B{
+  padding-top: 1rem;
+}

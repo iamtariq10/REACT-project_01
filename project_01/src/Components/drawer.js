@@ -18,7 +18,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleBreadcrumbs from './breadcrumbs'
-import ContainedButtons from './buttons'
 import SpeedIcon from '@material-ui/icons/Speed';
 import PeopleIcon from '@material-ui/icons/People';
 import FiberNewIcon from '@material-ui/icons/FiberNew';
@@ -26,6 +25,8 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import NestedList from './nestedLists'
 import BadgeAvatars from './avatar'
+import BasicTextFields from './input'
+import TableExample from './table'
 
 const drawerWidth = 240;
 
@@ -209,8 +210,9 @@ export default function PersistentDrawerLeft() {
         <div className={classes.drawerHeader} />
         <SimpleBreadcrumbs />
         <Divider/>
-        <ContainedButtons/>
-        
+        <Divider/>
+        <BasicTextFields/>
+      
         
         
       </main>
